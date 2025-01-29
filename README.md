@@ -36,7 +36,7 @@ You can select from a range of audiences or a single auidience. Examples:
 * <b>Duration of Workshop:</b> 45 minute workshop
 * <b>Needed Materials:</b> Rasperry Pi 3 boards, 60 Pixel LED Strips, IR non-contact temp sensors, microphone sensors, Breadboards, wire connectors,  Monitors.
 * <b>Learning Outcomes:</b> The primary goal of this project is to teach participants how code can be applied to physical applications and to boost creativity in thinking outside the computer screen.
-* <b>Your Main Technology</b> Raspberry Pi is a small, low-cost computer that's used for a variety of projects, including digital art, education, and home automation. 
+* <b>Main Technology:</b> Raspberry Pi is a small, low-cost computer that's used for a variety of projects, including digital art, education, and home automation. 
 * [Technology Ambassador Program](https://tapggc.org/) <b>(TAP)</b> is a project-based class that provides a collaborative environment for students to work with their fellow classmates on a semester-long project using technologies of their choice. TAP strives to increase participation in IT through numerous outreach activities and workshops that are designed to showcase the creative and fun side of technology.
 <!-- Commercial Video stored in the Media folder will be linked here -->
 
@@ -63,33 +63,33 @@ You can select from a range of audiences or a single auidience. Examples:
 
 
 ## :page_with_curl: Project Description
-A more thorough description of your project. Not a full walkthrough, but describe the different sections of your project and the gist of what participants will be doing when interacting with it and what they'll learn.
+You can use a Raspberry Pi to control an LED strip by connecting it to the Pi’s GPIO pins. We potentially aim to make this a part of the workshop so students can be hands on with the hardware aspect of the project. With Python, you can write a script to turn the LEDs on/off, change colors, or create lighting effects. With hopes of creating a dynamic light show script. We aim to teach students how to edit or add to the script to make their own light show.
+You could also add features like remote control via a web interface or smartphone app, or automate lighting based on time or sensors. Depending on the participants skill level, we could also incorporate these such features.
+
+
+
+
 
 ## :memo: Publications
 <!-- team members, then professors/advisors. "Name of Publication", event, month and day, year, Georgia Gwinnett College. -->
-1. Team Member, Team Member, Team Member, John Doe, Jane Doe. "A Real Fake Workshop", Fake Event, April 1, 2024, Georgia Gwinnett College.  
+1. Jeron Clarke, Genesis Knight, Ricardo Calderon, Dr. Gunay, Dr. Robertson. "A "Lite" Workshop!", Event Coming soon, TBD, Georgia Gwinnett College.  
 
 ## :open_hands: Outreach
-<i>List the outreach events your team has participated in. </i>
+<i>To be Announced </i>
 
-Example:
-
-1. <b>TAP Expo</b>, April 1, 2021, Georgia Gwinnett College: to promote the IT field and encourage college students to sign up for TAP.
-2. <b>Class Workshops</b>, April 13-15, 2021, Georgia Gwinnett College: to promote the IT field to non-IT students.
 
 ## :mag_right: Similar Projects
 <i>Use this section to link to a project done in the TAP program that is related in some way to your own. This can be a sister project done during your TAP semester or a TAP project done in the past. Example: </i> 
 
-If you're interested in more workshops that utilize Scratch, check out [Space Mechanic](https://github.com/TAP-GGC/NinjaTurtles)!
 
 ## :computer: Technology
 <i> Raspberry Pi </i>
 <!-- be sure to use the alt text feature in case anybody viewing your repo is using  screen reader! you want your workshop to be as accessible as possible -->
 <p align="center">
-  <img alt="Raspberry Pi Logo" src = "media/logos/raspberry pi logo.png" width="300" height="200"/>
+  <img alt="Raspberry Pi Logo" src = "media/logos/raspberry pi logo.png" width="375" height="200"/>
 </p>
 
-* Explain why your team chose this technology for this workshop.
+* The Raspberry Pi is an affordable, compact computer that’s great for learning, DIY projects, and experimentation. Its small size, low cost, and extensive community support make it ideal for coding, IoT, and hardware projects. We want to showcase just a few ways that it can be implemented to go beyond digital limitations and bring out applications that we can see and feel in the physical world.
 
 <p align="center">
 <img src = "media/logos/raspberry pi board.jpeg" width ="400" height="200">
