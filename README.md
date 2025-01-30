@@ -2,8 +2,8 @@
 <!-- This section is where you will replace the link to your transparent logo, the title of your project, and the very short desciptor of your project -->
 <!-- If you used Canva to make your icon and don't want to pay for a background remover, you can use the website https://www.remove.bg/ to do so -->
 <p align="center">
-  <img alt="Template Logo" src="media/logos/Raspberry Lite Logo.jpeg" width="" height="350" />
-  <h1 align="center">Raspberry Lite (A demonstration of hardware and software integration)</h1>
+  <img alt="Template Logo" src="media/logos/raspberry lites.png" width="" height="350" />
+  <h1 align="center">Raspberry Lites (A demonstration of hardware and software integration)</h1>
   <p align="center">A project for developing students by Jeron Clarke, Genesis Knight and Ricardo Calderon </p>
 </p>
 <!-- the emojis are not set in stone! If you'd like you can remove them entirely or select your own from https://gist.github.com/rxaviers/7360908 you are welcome to -->
@@ -40,7 +40,7 @@ You can select from a range of audiences or a single auidience. Examples:
 * [Technology Ambassador Program](https://tapggc.org/) <b>(TAP)</b> is a project-based class that provides a collaborative environment for students to work with their fellow classmates on a semester-long project using technologies of their choice. TAP strives to increase participation in IT through numerous outreach activities and workshops that are designed to showcase the creative and fun side of technology.
 <!-- Commercial Video stored in the Media folder will be linked here -->
 
-[Commercial Video](https://github.com/TAP-GGC/NinjaTurtles/assets/157164928/94b037a6-8912-44da-8a8c-84c0b8a0afb8)
+Commercial Under Construction
 
 <!-- videos can also be dragged and dropped into markdown files if you want them embedded -->
 
