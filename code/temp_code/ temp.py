@@ -1,6 +1,10 @@
 from gpiozero import LED, Button
 from time import sleep
 
+
+# sudo apt update
+# sudo apt install python3-gpiozero
+
 led1 = LED(17)
 button = Button(18)
 
