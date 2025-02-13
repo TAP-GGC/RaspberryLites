@@ -17,10 +17,7 @@ def pulse(led):
         sleep(0.05)
 
 while True:
-    if button.is_pressed:
         led1.on()
         pulse(led1)
         sleep(1)
-    else:
-        led1.off()
-        sleep(0.5)
+
