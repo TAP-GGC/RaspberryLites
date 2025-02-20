@@ -1,0 +1,23 @@
+How are we going to simplify the code for a 6th grader  
+
+
+
+Steps we took:
+    For MVP(and begginners):
+     gpiozero
+Easy way to get them into small functions and algorithmic programming using
+small lights and a breadboard, powersupply, and a monitor
+
+
+For intermediate level:
+ rpi_ws281x
+ adafruit-circuitpython-neopixel
+    with light strips
+More complex and more freedom for change in the event of a larger programmer
+
+For the TAP expo:
+    1 use case => using the intermediate setup
+
+for s3:
+    Ideally 5 different workshop setups with a webserver esq manamgement system. 
+    to remote into the RaspberryPi for demonstration
