@@ -20,4 +20,4 @@ For the TAP expo:
 
 for s3:
     Ideally 5 different workshop setups with a webserver esq manamgement system. 
-    to remote into the RaspberryPi for demonstration
+    to remote into the RaspberryPi for demonstration.
