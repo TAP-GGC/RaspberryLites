@@ -17,8 +17,14 @@ def pulse(led):
         sleep(0.05)
 
 while True:
+<<<<<<< HEAD
 
     led1.on()
     pulse(led1)
     sleep(1)
+=======
+        led1.on()
+        pulse(led1)
+        sleep(1)
+>>>>>>> origin/main
 
