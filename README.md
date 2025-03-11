@@ -96,21 +96,21 @@ You could also add features like remote control via a web interface or smartphon
 </p>
 
 ## Project Setup/Installation 
-	Raspberry Pi running with Raspbian Legacy Bullseye OS
-	Open Terminal in Raspberry Pi
-	3 libraries must be installed using the following commands:
-	sudo pip3 install rpi_ws281x
-	sudo pip3 install adafruit-circuitpython-neopixel
-	sudo python3 -m pip install --force-reinstall adafruit-blinka
-	Connect 5v LED Strip to 5v Power Supply with positive (red) wire and ground/negative (black) wire.
-	Connect 5v LED Strip to Ground Pin with ground wire (black) and Pin 18 on GPIO with data wire (green).
-	Make Sure dtparam=audio=on is set to off in config file
-	In terminal, type sudo nano /boot/config.txt
-	Change dtparam=audio=on to dtparam=audio=off
-	press | Ctrl + X | and then | Y | to save and exit
-	Open Thonny from terminal using the command sudo thonny for root privileges
-	Make sure Thonny is running in normal mode (restart to put changes in effect)
-	Use provided template or strandtest.py
+*	Raspberry Pi running with Raspbian Legacy Bullseye OS
+*	Open Terminal in Raspberry Pi
+*	3 libraries must be installed using the following commands:
+* sudo pip3 install rpi_ws281x
+*	sudo pip3 install adafruit-circuitpython-neopixel
+*	sudo python3 -m pip install --force-reinstall adafruit-blinka
+*	Connect 5v LED Strip to 5v Power Supply with positive (red) wire and ground/negative (black) wire.
+*	Connect 5v LED Strip to Ground Pin with ground wire (black) and Pin 18 on GPIO with data wire (green).
+*	Make Sure dtparam=audio=on is set to off in config file
+*	In terminal, type sudo nano /boot/config.txt
+*	Change dtparam=audio=on to dtparam=audio=off
+*	press | Ctrl + X | and then | Y | to save and exit
+*	Open Thonny from terminal using the command sudo thonny for root privileges
+*	Make sure Thonny is running in normal mode (restart to put changes in effect)
+*	Use provided template or strandtest.py
 
 
 
