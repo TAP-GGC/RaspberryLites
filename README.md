@@ -96,21 +96,35 @@ You could also add features like remote control via a web interface or smartphon
 </p>
 
 ## Project Setup/Installation 
-*	Raspberry Pi running with Raspbian Legacy Bullseye OS
-*	Open Terminal in Raspberry Pi
-*	3 libraries must be installed using the following commands:
-* sudo pip3 install rpi_ws281x
-*	sudo pip3 install adafruit-circuitpython-neopixel
-*	sudo python3 -m pip install --force-reinstall adafruit-blinka
-*	Connect 5v LED Strip to 5v Power Supply with positive (red) wire and ground/negative (black) wire.
-*	Connect 5v LED Strip to Ground Pin with ground wire (black) and Pin 18 on GPIO with data wire (green).
-*	Make Sure dtparam=audio=on is set to off in config file
-*	In terminal, type sudo nano /boot/config.txt
-*	Change dtparam=audio=on to dtparam=audio=off
-*	press | Ctrl + X | and then | Y | to save and exit
-*	Open Thonny from terminal using the command sudo thonny for root privileges
-*	Make sure Thonny is running in normal mode (restart to put changes in effect)
-*	Use provided template or strandtest.py
+<h3><b>What you will need :</b></h3></br>
+Raspberry Pi running with Raspbian Legacy Bullseye OS</br>
+<img src = "media/technology/IMG-20250311-WA0003.webp" width ="300" height="200"></br>
+External Power supply for LED strip</br>
+<img src = "media/technology/LED power supply.webp" width ="150" height="200"></br>
+LED Strip</br>
+<img src = "media/technology/Wiring LED.webp" width ="300" height="200"></br>
+Jumper Wires</br>
+<img src = "media/technology/PSU adapter.webp" width ="300" height="200"></br>
+
+
+
+<h3><b> Setup: </b></h3>
+<ul>
+<li>Open Terminal in Raspberry Pi</li>
+<li>3 libraries must be installed using the following commands:</li>
+<li>sudo pip3 install rpi_ws281x</li>
+<li>sudo pip3 install adafruit-circuitpython-neopixel</li>
+<li>sudo python3 -m pip install --force-reinstall adafruit-blinka</li>
+<li>Connect 5v LED Strip to 5v Power Supply with positive (red) wire and ground/negative (black) wire.</li>
+<li>Connect 5v LED Strip to Ground Pin with ground wire (black) and Pin 18 on GPIO with data wire (green).</li>
+<li>Make Sure dtparam=audio=on is set to off in config file</li>
+<li>In terminal, type sudo nano /boot/config.txt</li>
+<li>Change dtparam=audio=on to dtparam=audio=off</li>
+<li>press | Ctrl + X | and then | Y | to save and exit</li>
+<li>Open Thonny from terminal using the command sudo thonny for root privileges</li>
+<li>Make sure Thonny is running in normal mode (restart to put changes in effect)</li>
+<li>Use provided template or strandtest.py</li>
+</ul>
 
 
 
