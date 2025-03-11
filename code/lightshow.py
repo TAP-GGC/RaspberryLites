@@ -2,7 +2,12 @@ import time
 from rpi_ws281x import *
 import argparse
 
-# LED strip configuration:
+# ===========================================================================================
+#                    LED strip configuration:
+#============================================================================================
+
+
+
 LED_COUNT      = 30     # Number of LED pixels.
 LED_PIN        = 18      # GPIO pin connected to the pixels (18 uses PWM!).
 #LED_PIN        = 10      # GPIO pin connected to the pixels (10 uses SPI /dev/spidev0.0).
@@ -14,7 +19,14 @@ LED_CHANNEL    = 0       # set to '1' for GPIOs 13, 19, 41, 45 or 53
 
 
 
-# Define functions which animate LEDs in various ways.
+
+
+#============================================================================================
+#                    Define functions which animate LEDs in various ways.
+#============================================================================================
+
+
+
 def colorWipe(strip, color, wait_ms=50):
     """Wipe color across display a pixel at a time."""
     for i in range(strip.numPixels()):
@@ -71,7 +83,11 @@ def theaterChaseRainbow(strip, wait_ms=50):
             for i in range(0, strip.numPixels(), 3):
                 strip.setPixelColor(i+q, 0)
 
-# Main program logic follows:
+
+
+#======================================================================================================
+#                        Main Program
+#======================================================================================================
 if __name__ == '__main__':
     # Process arguments
     parser = argparse.ArgumentParser()
@@ -87,6 +103,10 @@ if __name__ == '__main__':
     if not args.clear:
         print('Use "-c" argument to clear LEDs on exit')
 
+
+#=======================================================================================
+#             Try New Sequences Here!
+#=======================================================================================
     try:
 
         while True:
