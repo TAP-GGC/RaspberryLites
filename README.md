@@ -98,7 +98,6 @@ You could also add features like remote control via a web interface or smartphon
 ## Project Setup/Installation 
 <h3><b>What you will need :</b></h3></br>
 Raspberry Pi running with Raspbian Legacy Bullseye OS
-Sudo access to Thonny IDE (Run in terminal Sudo Thonny)
 </br>
 <img src = "media/technology/IMG-20250311-WA0003.webp" width ="300" height="200"></br>
 External Power supply for LED strip</br>
@@ -116,6 +115,7 @@ Jumper Wires</br>
 <li>3 libraries must be installed using the following commands:</li>
 <li>sudo pip3 install rpi_ws281x</li>
 <li>sudo pip3 install adafruit-circuitpython-neopixel</li>
+<li> Sudo access to Thonny IDE (Run in terminal Sudo Thonny)</li>
 <li>sudo python3 -m pip install --force-reinstall adafruit-blinka</li>
 <li>Connect 5v LED Strip to 5v Power Supply with positive (red) wire and ground/negative (black) wire.</li>
 <li>Connect 5v LED Strip to Ground Pin with ground wire (black) and Pin 18 on GPIO with data wire (green).</li>
@@ -140,7 +140,7 @@ Coming Soon
 a.	color(x , y , z)
 4)	Run code and enjoy the light show!
 
+
 ## Workshop Instructions 
 Coming Soon
-
 
