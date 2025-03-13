@@ -97,7 +97,9 @@ You could also add features like remote control via a web interface or smartphon
 
 ## Project Setup/Installation 
 <h3><b>What you will need :</b></h3></br>
-Raspberry Pi running with Raspbian Legacy Bullseye OS</br>
+Raspberry Pi running with Raspbian Legacy Bullseye OS
+Sudo access to Thonny IDE (Run in terminal Sudo Thonny)
+</br>
 <img src = "media/technology/IMG-20250311-WA0003.webp" width ="300" height="200"></br>
 External Power supply for LED strip</br>
 <img src = "media/technology/LED power supply.webp" width ="150" height="200"></br>
