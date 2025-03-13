@@ -115,7 +115,7 @@ Jumper Wires</br>
 <li>3 libraries must be installed using the following commands:</li>
 <li>sudo pip3 install rpi_ws281x</li>
 <li>sudo pip3 install adafruit-circuitpython-neopixel</li>
-<li> Sudo access to Thonny IDE (Run in terminal Sudo Thonny)</li>
+<li> sudo access to Thonny IDE (Run in terminal sudo Thonny)</li>
 <li>sudo python3 -m pip install --force-reinstall adafruit-blinka</li>
 <li>Connect 5v LED Strip to 5v Power Supply with positive (red) wire and ground/negative (black) wire.</li>
 <li>Connect 5v LED Strip to Ground Pin with ground wire (black) and Pin 18 on GPIO with data wire (green).</li>
