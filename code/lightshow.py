@@ -8,11 +8,11 @@ import argparse
 
 
 
-LED_COUNT      = 30     # Number of LED pixels.
+LED_COUNT      = 60     # Number of LED pixels.
 LED_PIN        = 18      # GPIO pin connected to the pixels (18 uses PWM!).
 #LED_PIN        = 10      # GPIO pin connected to the pixels (10 uses SPI /dev/spidev0.0).
 LED_FREQ_HZ    = 800000  # LED signal frequency in hertz (usually 800khz)
-LED_DMA        = 10      # DMA channel to use for generating a signal (try 10)
+LED_DMA        = 10      # DMA or Direct Memory Access channel to use for generating a signal (try 10)
 LED_BRIGHTNESS = 65      # Set to 0 for darkest and 255 for brightest
 LED_INVERT     = False   # True to invert the signal (when using NPN transistor level shift)
 LED_CHANNEL    = 0       # set to '1' for GPIOs 13, 19, 41, 45 or 53
@@ -22,7 +22,7 @@ LED_CHANNEL    = 0       # set to '1' for GPIOs 13, 19, 41, 45 or 53
 
 
 #============================================================================================
-#                    Define functions which animate LEDs in various ways.
+#          Color Wipe is a Solid Color that fills the strip in a wiping movement.
 #============================================================================================
 
 
@@ -33,6 +33,14 @@ def colorWipe(strip, color, wait_ms=50):
         strip.setPixelColor(i, color)
         strip.show()
         time.sleep(wait_ms/1000.0)
+
+
+
+#============================================================================================
+#    Theater Chase is a Blinking pattern that makes the lights seem as if they are moving.
+#============================================================================================
+
+
 
 def theaterChase(strip, color, wait_ms=50, iterations=10):
     """Movie theater light style chaser animation."""
@@ -45,6 +53,10 @@ def theaterChase(strip, color, wait_ms=50, iterations=10):
             for i in range(0, strip.numPixels(), 3):
                 strip.setPixelColor(i+q, 0)
 
+#============================================================================================
+#    Wheel creates a color wheel with "all the colors of the rainbow"
+#============================================================================================
+
 def wheel(pos):
     """Generate rainbow colors across 0-255 positions."""
     if pos < 85:
@@ -56,6 +68,10 @@ def wheel(pos):
         pos -= 170
         return Color(0, pos * 3, 255 - pos * 3)
 
+#============================================================================================
+#    Rainbow Creates that original RGB rainbow pattern that is used in most RGB LEDs
+#============================================================================================
+
 def rainbow(strip, wait_ms=20, iterations=1):
     """Draw rainbow that fades across all pixels at once."""
     for j in range(256*iterations):
@@ -63,6 +79,10 @@ def rainbow(strip, wait_ms=20, iterations=1):
             strip.setPixelColor(i, wheel((i+j) & 255))
         strip.show()
         time.sleep(wait_ms/1000.0)
+        
+#============================================================================================
+#    Rainbow Cycle but all the pixels share the same color.
+#============================================================================================
 
 def rainbowCycle(strip, wait_ms=20, iterations=5):
     """Draw rainbow that uniformly distributes itself across all pixels."""
@@ -71,6 +91,10 @@ def rainbowCycle(strip, wait_ms=20, iterations=5):
             strip.setPixelColor(i, wheel((int(i * 256 / strip.numPixels()) + j) & 255))
         strip.show()
         time.sleep(wait_ms/1000.0)
+        
+#====================================================================================================
+#Theater Chase is a Blinking pattern that makes the lights seem as if they are moving. Rainbow Style
+#====================================================================================================      
 
 def theaterChaseRainbow(strip, wait_ms=50):
     """Rainbow movie theater light style chaser animation."""
@@ -103,25 +127,14 @@ if __name__ == '__main__':
     if not args.clear:
         print('Use "-c" argument to clear LEDs on exit')
 
+#-----------------------------------------------------------------------------------------------------
 
-#=======================================================================================
-#             Try New Sequences Here!
-#=======================================================================================
     try:
-
         while True:
-            print ('Color wipe animations.')
-            colorWipe(strip, Color(255, 0, 0))  # Red wipe
-            colorWipe(strip, Color(0, 255, 0))  # Blue wipe
-            colorWipe(strip, Color(0, 0, 255))  # Green wipe
-            print ('Theater chase animations.')
-            theaterChase(strip, Color(127, 127, 127))  # White theater chase
-            theaterChase(strip, Color(127,   0,   0))  # Red theater chase
-            theaterChase(strip, Color(  0,   0, 127))  # Blue theater chase
-            print ('Rainbow animations.')
+#=====================================================================================================
+#             Try New Sequences Here!
+#=====================================================================================================
             rainbow(strip)
-            rainbowCycle(strip)
-            theaterChaseRainbow(strip)
 
     except KeyboardInterrupt:
         if args.clear:
