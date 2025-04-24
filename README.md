@@ -113,7 +113,7 @@ LED Strip</br>
 Jumper Wires</br>
 <img src = "media/technology/PSU adapter.webp" width ="300" height="200"></br>
 <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zgtglnj2uuI?si=Ljt1SPkOE0Ld56cY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Split Wire Instructional Video](https://img.youtube.com/vi/zgtglnj2uuI/0.jpg)](https://www.youtube.com/watch?v=zgtglnj2uuI)
 </br>
 
 
