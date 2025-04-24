@@ -112,6 +112,9 @@ LED Strip</br>
 <img src = "media/technology/Wiring LED.webp" width ="300" height="200"></br>
 Jumper Wires</br>
 <img src = "media/technology/PSU adapter.webp" width ="300" height="200"></br>
+<br><iframe width="420" height="315"
+src="https://www.youtube.com/embed/zgtglnj2uuI">
+</iframe></br>
 
 
 
